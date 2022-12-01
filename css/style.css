@@ -6,26 +6,26 @@
   font-family: arial,sans-serif;
   font-size: 13px;
 }
-
+                   
 .panel li {
-  display: inline;
-}
+  display: inline;   
+}                        /*.panel içindeki li inline yapıldı */  
 
 .panel ul {
   text-align: right;
-}
+}                         /*.panel içindeki ul sağa yaslandı */ 
 
 .buttons {
   text-align: center;
   margin-top: 20px;
   
-}
-
+}                         /* alttaki iki buton sayfada ortalandı üstten margin verildi */ 
+                          
 .buttons button {
   box-shadow: none;
   padding: 7px 16px;
 
-}
+}                       
 
 .buttons button:hover {
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
